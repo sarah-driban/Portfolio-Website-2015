@@ -1,0 +1,72 @@
+[06-Dec-2014 14:39:11 America/New_York] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/driban/public_html/includes/header.php on line 34
+[06-Dec-2014 14:49:47 America/New_York] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in /home/driban/public_html/includes/footer.php on line 9
+[06-Dec-2014 14:50:39 America/New_York] PHP Parse error:  syntax error, unexpected '=', expecting identifier (T_STRING) in /home/driban/public_html/includes/footer.php on line 9
+[06-Dec-2014 14:51:16 America/New_York] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/driban/public_html/includes/footer.php on line 9
+[06-Dec-2014 14:52:08 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting ',' or ';' in /home/driban/public_html/includes/footer.php on line 9
+[06-Dec-2014 14:52:56 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting ',' or ';' in /home/driban/public_html/includes/footer.php on line 9
+[06-Dec-2014 14:53:31 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting ',' or ';' in /home/driban/public_html/includes/footer.php on line 9
+[06-Dec-2014 14:53:56 America/New_York] PHP Parse error:  syntax error, unexpected ''class="footer_text year"'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/driban/public_html/includes/footer.php on line 9
+[06-Dec-2014 14:54:21 America/New_York] PHP Parse error:  syntax error, unexpected ''class="footer_text year"'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/driban/public_html/includes/footer.php on line 9
+[06-Dec-2014 14:54:32 America/New_York] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in /home/driban/public_html/includes/footer.php on line 9
+[06-Dec-2014 14:54:53 America/New_York] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /home/driban/public_html/includes/footer.php on line 9
+[06-Dec-2014 14:55:33 America/New_York] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/driban/public_html/includes/footer.php on line 9
+[06-Dec-2014 14:56:11 America/New_York] PHP Parse error:  syntax error, unexpected ''class="footer_text year"'' (T_CONSTANT_ENCAPSED_STRING) in /home/driban/public_html/includes/footer.php on line 9
+[06-Dec-2014 14:56:35 America/New_York] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /home/driban/public_html/includes/footer.php on line 9
+[06-Dec-2014 14:57:00 America/New_York] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/driban/public_html/includes/footer.php on line 9
+[06-Dec-2014 14:57:30 America/New_York] PHP Parse error:  syntax error, unexpected ''class="footer_text year" '' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/driban/public_html/includes/footer.php on line 9
+[06-Dec-2014 21:02:33 UTC] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/driban/public_html/wp-content/themes/portfolio_theme/index.php on line 3
+[06-Dec-2014 21:02:33 UTC] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/driban/public_html/wp-content/themes/portfolio_theme/index.php on line 3
+[06-Dec-2014 21:02:33 UTC] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/driban/public_html/wp-content/themes/portfolio_theme/index.php on line 39
+[06-Dec-2014 21:02:33 UTC] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/driban/public_html/wp-content/themes/portfolio_theme/index.php on line 39
+[06-Dec-2014 23:31:37 UTC] PHP Fatal error:  Call to undefined function full_content() in /home/driban/public_html/wp-content/themes/portfolio_theme/single.php on line 23
+[06-Dec-2014 23:36:59 UTC] PHP Fatal error:  Call to undefined function full_content() in /home/driban/public_html/wp-content/themes/portfolio_theme/single.php on line 23
+[07-Dec-2014 07:01:29 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 33
+[07-Dec-2014 07:01:56 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 33
+[07-Dec-2014 07:02:10 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 33
+[07-Dec-2014 07:02:13 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 33
+[07-Dec-2014 07:02:20 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 33
+[07-Dec-2014 07:03:35 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 41
+[07-Dec-2014 07:08:52 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 41
+[07-Dec-2014 07:09:35 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 41
+[07-Dec-2014 17:48:16 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 45
+[07-Dec-2014 17:49:06 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 46
+[07-Dec-2014 17:49:08 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 46
+[07-Dec-2014 17:51:33 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 34
+[07-Dec-2014 17:53:42 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 34
+[07-Dec-2014 17:53:43 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 34
+[07-Dec-2014 17:54:19 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 34
+[07-Dec-2014 17:54:22 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 34
+[07-Dec-2014 17:54:35 UTC] PHP Parse error:  syntax error, unexpected 'get_the_post_thumbnail' (T_STRING), expecting ',' or ';' in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 34
+[07-Dec-2014 18:02:39 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 48
+[07-Dec-2014 18:11:21 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 193
+[07-Dec-2014 18:12:06 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 47
+[07-Dec-2014 18:12:57 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 182
+[07-Dec-2014 18:14:55 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 188
+[07-Dec-2014 18:15:00 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 188
+[07-Dec-2014 18:15:30 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 191
+[07-Dec-2014 18:17:15 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 49
+[07-Dec-2014 18:18:35 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 50
+[07-Dec-2014 18:18:38 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/driban/public_html/wp-content/themes/portfolio_theme/category.php on line 50
+[07-Dec-2014 18:59:54 UTC] PHP Fatal error:  Function name must be a string in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 69
+[07-Dec-2014 19:00:22 UTC] PHP Fatal error:  Function name must be a string in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 69
+[07-Dec-2014 19:08:08 UTC] PHP Warning:  strpos(): Empty needle in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71
+[07-Dec-2014 19:08:39 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71
+[07-Dec-2014 19:08:53 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71
+[07-Dec-2014 19:09:18 UTC] PHP Warning:  strpos(): Empty needle in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71
+[07-Dec-2014 19:09:18 UTC] PHP Warning:  strpos(): Empty needle in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71
+[07-Dec-2014 19:09:18 UTC] PHP Warning:  strpos(): Empty needle in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71
+[07-Dec-2014 19:09:18 UTC] PHP Warning:  strpos(): Empty needle in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71
+[07-Dec-2014 19:09:18 UTC] PHP Warning:  strpos(): Empty needle in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71
+[07-Dec-2014 19:09:18 UTC] PHP Warning:  strpos(): Empty needle in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71
+[07-Dec-2014 19:09:18 UTC] PHP Warning:  strpos(): Empty needle in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71
+[07-Dec-2014 19:09:18 UTC] PHP Warning:  strpos(): Empty needle in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71
+[07-Dec-2014 19:09:18 UTC] PHP Warning:  strpos(): Empty needle in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71
+[07-Dec-2014 19:09:18 UTC] PHP Warning:  strpos(): Empty needle in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71
+[07-Dec-2014 19:09:18 UTC] PHP Warning:  strpos(): Empty needle in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71
+[07-Dec-2014 19:09:40 UTC] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71
+[07-Dec-2014 19:09:54 UTC] PHP Parse error:  syntax error, unexpected '27' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71
+[07-Dec-2014 19:10:17 UTC] PHP Parse error:  syntax error, unexpected ''portfolio'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71
+[07-Dec-2014 19:10:31 UTC] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71
+[07-Dec-2014 19:10:53 UTC] PHP Warning:  strpos(): Empty needle in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71
+[07-Dec-2014 19:11:29 UTC] PHP Fatal error:  Function name must be a string in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71
+[07-Dec-2014 19:11:51 UTC] PHP Parse error:  syntax error, unexpected ''Portfolio'' (T_CONSTANT_ENCAPSED_STRING) in /home/driban/public_html/wp-content/themes/portfolio_theme/functions.php on line 71

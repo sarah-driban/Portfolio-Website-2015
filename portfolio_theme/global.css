@@ -1,0 +1,677 @@
+/* =============================================== */
+/* COLORS */
+/* =============================================== */
+
+/* grey			#C6C1C2 */
+/* dark grey	#3A3736 */
+/* light grey	#EAE5E6 */
+/* orange		#F15A29 */
+/* blue			#3A92C9 */
+/* white		#FFF */
+
+
+
+/*=======================
+  CLEARS
+=========================*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+}
+
+.clear {
+  clear: both;
+}
+
+
+/* =============================================== */
+/* DOCUMENT */
+/* =============================================== */
+
+html, body {
+	margin: 0; 
+	padding: 0; 
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+     
+     /* Height and width fallback for older browsers. */
+    height: 100%;
+    width: 100%;
+
+    /* Set the height to match that of the viewport. */
+    height: 100vh;
+
+    /* Set the width to match that of the viewport. */
+    width: 100vw;
+
+    /* Remove any browser-default margins. */
+    margin: 0;
+}
+
+ul, li, p, h1, h2, h3, h4, a {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: #EAE5E6;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+}
+
+.container {
+	width: 960px;
+	/*border: solid #3A92C9 2px;*/
+	margin: 0 auto;
+}
+
+
+/* =============================================== */
+/* HEADER */
+/* =============================================== */
+
+.header {
+	height: 75px;
+	width: 100%; 
+	background: #3A3736;
+	border-bottom: solid #C6C1C2 7px;
+	position: relative;
+	float: left;
+	margin-bottom: 55px;
+	margin-top: 20px;
+	display: block;
+	z-index: 100;
+}
+
+.nav ul{
+	list-style-type: none;
+}
+
+.nav a{
+	font-family: "Open Sans", sans serif;
+	font-weight: 800;
+	color: #F15A29;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	line-height: 75px;
+}
+
+.nav a:hover {
+	color: #3A92C9;
+}
+
+.nav a.current {
+	font-style: italic;
+}
+
+.current {
+	font-style: italic;
+}
+
+.one {
+	width: 32%;
+	float: left;
+}
+
+.one li {
+	float: left;
+	width: 125px;
+	margin: 0 0px 0 20px;
+	text-align: center;
+}
+
+h1 {
+	font-family: "Open Sans", sans serif;
+	font-weight: 800;
+	color: #3A92C9;
+	text-transform: uppercase;
+	font-size: 2em;
+	text-align: center;	
+	line-height: 75px;
+}
+
+.name {
+	width: 30%;
+	float: left;
+	margin: 0 3% 0 3%;
+}
+
+.media {
+	height: 35px;
+	margin: 20px 40px 0 0;
+	position: relative;
+	float: right;
+}
+
+.media a {
+	width: 35px;
+	height: 35px;
+	float: right;
+	margin: 0 10px 0 0;
+}
+
+.media a img {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+img.original {
+	display:block;
+	position: relative;
+}
+
+.media a:hover img.original {
+	display: none;
+}
+
+.media a:hover img.blue {
+	display: block;
+}
+
+img.blue {
+	display: none;
+}
+
+/* =============================================== */
+/* FOOTER */
+/* =============================================== */
+
+.footer {
+	height: 45px;
+	width: 100%; 
+	background: #3A3736;
+	border-top: solid #C6C1C2 7px;
+	position: relative;
+	margin: 0 auto;
+	float: left;
+}
+
+.footer_words {
+	margin: 0 200px 0 270px;
+	position: absolute;
+	width: 500px;	
+}
+
+.footer_text {
+	font-family: "Open Sans", sans serif;
+	font-weight: 400;
+	color: #F15A29;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1em;
+	line-height: 45px;
+	float: left;
+}
+
+.copyright {
+	width: 18px;
+	height: 18px;
+	margin: 14px 5px 0px 5px;
+	float: left;
+}
+
+.sarah {
+	width: 200px;
+	text-align: right;
+	margin: 0 0 0 36px;
+}
+
+.year {
+	width: 200px;
+	text-align: left;
+}
+
+/* =============================================== */
+/* CONTENT / HOME */
+/* =============================================== */
+
+img.featured {
+	width: 960px;
+	position: relative;
+	display: block;
+	margin: 0px 0 35px 0;
+}
+
+.main, .content {
+	position: relative; 
+	width: 100%;
+	float: left;
+}
+
+.banner {
+	width: 100%;
+	position: relative;
+	margin-top: 25px;
+}
+
+h2 {
+	display: block;
+	font-family: "Open Sans", sans serif;
+	font-weight: 800;
+	color: #F15A29;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 3em;
+	text-align: center;
+	position: relative;
+}
+
+h4 {
+	font-family: "Open Sans", sans serif;
+	font-weight: 400;
+	color: #C6C1C2;
+	text-decoration: none;
+	font-size: 1.5em;
+	text-align: center;
+	position: relative;
+	margin: 0 0 35px 0;
+}
+
+/* pager */
+.cycle-pager { 
+    text-align: center; 
+    width: 100%; 
+    z-index: 500; 
+    position: absolute; 
+    top: 410px; 
+    overflow: hidden;
+}
+
+.cycle-pager span { 
+    font-family: arial; 
+    font-size: 50px; 
+    width: 16px; 
+    height: 16px; 
+    display: inline-block; 
+    color: #C6C1C2; 
+    cursor: pointer; 
+    margin: 0 2px 0 2px; 
+}
+.cycle-pager span.cycle-pager-active { 
+	color: #3A92C9;
+}
+
+.cycle-pager > * { 
+	cursor: pointer;
+}
+
+/* =============================================== */
+/* CONTENT / BASIC PAGE LAYOUT */
+/* =============================================== */
+
+.big_words {
+	text-align: center;
+	margin: 10px 0 15px 0;
+}
+
+h3 {
+	font-family: "Open Sans", sans serif;
+	font-weight: 800;
+	color: #F15A29;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 7.5em;
+	line-height: 1em;
+}
+
+.title {
+	height: 65px;
+	border-bottom: solid #C6C1C2 3px;
+	margin: 0 0 30px 0;
+}
+
+.text {
+	font-family: "Open Sans", sans serif;
+	font-weight: 400;
+	color: #3A3736;
+	text-decoration: none;
+	font-size: 1em;
+	padding: 0 0px 0 30px;
+	margin: 0 30px 35px 0;
+}
+
+.resume {
+	width: 600px;
+}
+
+.back {
+	margin: 0 0px 20px 0px;
+	text-align: center;
+}
+
+.back_top {
+	font-family: "Open Sans", sans serif;
+	font-weight: 400;
+	color: #C6C1C2;
+	text-decoration: none;
+	font-size: 1em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.back_top:hover {
+	color: #3A92C9;
+}
+
+.pdf {
+	background-color: #F15A29;
+	width: 185px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	position: relative;
+	right: 30px;
+	float: right;
+}
+
+.pdf:hover {
+	background-color: #3A92C9;
+}
+
+.click_pdf {
+	font-family: "Open Sans", sans serif;
+	font-weight: 800;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+.form {
+	padding: 0 30px 0 30px;
+	margin: 0 0 35px 0;
+	font-family: "Open Sans", sans serif;
+	font-weight: 800;
+	color: #C6C1C2;
+	text-transform: uppercase;
+}
+
+.submit {
+	width: 185px;
+	height: 60px;
+	background-color: #F15A29;
+	text-align: center;
+	line-height: 60px;
+	font-family: "Open Sans", sans serif;
+	font-weight: 800;
+	color: #FFF;
+	text-transform: uppercase;	
+	border: none;
+	font-size: 1.5em;
+	position: relative; 
+	margin: 0 0 0 715px;
+}
+
+.submit:hover {
+	background-color: #3A92C9;
+}
+
+.field {
+	width: 50%;
+	float: left;
+	margin: 0 0 20px 0;
+}
+
+.comment {
+}
+
+input {
+	height: 30px;
+	border: solid #C6C1C2 2px;
+	line-height: 50px;
+	background-color: #EAE5E6;
+}
+
+textarea {
+	background-color: #EAE5E6;
+	border: solid #C6C1C2 2px;
+}
+
+textarea:focus {
+	outline: none !important;
+	border: solid #3A92C9 2px;
+}
+
+input:focus {
+	outline: none !important;
+	border: solid #3A92C9 2px;
+}
+
+/* =============================================== */
+/* CONTENT / PORTFOLIO */
+/* =============================================== */
+
+.subnav {
+	text-align: center;
+	width: 960px;
+	display: block;
+	height: 36px;
+	margin: 0 0 25px 0;
+	padding: 0 30px 0 30px;
+}
+
+.two li{
+	float: left;
+	margin: 0 15px 0 15px;
+	list-style-type: none;
+	display: block;
+}
+
+.two li:hover {
+
+}
+
+.subnav a{
+	font-family: "Open Sans", sans serif;
+	font-weight: 800;
+	color: #C6C1C2;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.25em;
+}
+
+.subnav a:hover{
+	color: #3A92C9;
+}
+
+.photo {
+	margin: 30px 25px 30px 0px;
+	width: 300px;
+	height: 300px;
+	position: relative;
+}
+
+img.photo {
+	z-index: -1;
+}
+
+.right_img {
+	margin-right: 0px;
+}
+
+.middle_project {
+	margin: -330px 0 0 330px;
+}
+
+.right_project {
+	margin: -330px 0 0 660px;
+}
+
+.photo_wrapper {
+	margin: 0 0 35px 0;
+}
+
+
+/*img.blue_hover {
+	margin: 30px 25px 30px -329px;
+	width: 200px;
+	height: 200px;	*/
+	/*position: relative;
+	opacity: 0;
+	z-index: 5;
+}
+
+.blue_hover:hover {
+	opacity: .9;
+}*/
+
+.img_title {
+	text-align: center;
+	line-height: 295px;
+	width: 300px;
+	height: 300px;
+	background-image: url("images/blue_hover.png");
+	background-size: 300px 300px;
+	background-position: center;
+	margin: -334px 0 0 0;
+	opacity: 0;
+	transition: opacity .35s ease-in-out;
+   -moz-transition: opacity .35s ease-in-out;
+   -webkit-transition: opacity .35s ease-in-out;
+}
+
+div.img_title {
+	z-index: 10;
+}
+
+.img_title:hover {
+	opacity: .9;
+}
+
+a.artwork {
+	font-family: "Open Sans", sans serif;
+	font-weight: 800;
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	border: none;
+}
+
+
+/* =============================================== */
+/* CONTENT / BLOG */
+/* =============================================== */
+
+.whole_post {
+	background-color: #FFF;
+	width: 100%;
+	padding: 15px; 
+	margin: 0 0 35px 0;
+}
+
+.post_img {
+	margin: 0 15px 0 0;
+	width: 250px; 
+	height: 250px;
+	display: block;
+	float: left;
+}
+
+.post {
+	width: 665px; 
+	float: left;
+}
+
+.blog_title {
+	font-family: "Open Sans", sans serif;
+	font-weight: 800;
+	color: #F15A29;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+.blog_title:hover {
+	color: #3A92C9;
+}
+
+.post h4 {
+	font-size: 1em;
+	text-align: left;
+	margin: 0 0 10px 0;
+}
+
+.post_text {
+	font-family: "Open Sans", sans serif;
+	font-weight: 400;
+	color: #3A3736;
+}
+
+/* =============================================== */
+/* CONTENT / PROJECT PAGE */
+/* =============================================== */
+
+.display {
+	width: 900px; 
+	margin: 0 30px 0 30px;
+}
+
+.caption {
+	font-family: "Open Sans", sans serif;
+	font-weight: 400;
+	color: #3A3736;
+	font-size: 1em;
+	text-align: center;
+	margin: 10px 0 35px 0;
+}
+
+a.back_portfolio {
+	font-family: "Open Sans", sans serif;
+	font-weight: 400;
+	color: #C6C1C2;
+	text-decoration: none;
+	font-size: 1em;
+	text-transform: uppercase;
+	text-align: left;	
+	border: none;
+}
+
+.back_portfolio:hover {
+	color: #3A92C9;
+}
+
+.image_float {
+	float: left; 
+	margin: 0 15px 0 0;
+}
+
+.float_right {
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
